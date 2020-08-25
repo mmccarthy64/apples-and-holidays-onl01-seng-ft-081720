@@ -90,11 +90,11 @@ def all_holidays_with_bbq(holiday_hash)
       supply.to_s.split(" ")
       if supply.include?("BBQ")
         includes_BBQ << day
-        includes_BBQ
-        binding.pry
       end
     end
   end
+  includes_BBQ
+        binding.pry
 end
 
 
